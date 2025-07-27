@@ -55,6 +55,12 @@ body {
   padding-left: 50px;
   padding-top: 100px;
 }
+.home-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .home-content h1{
   width: 100%;
   font-weight:bold;
@@ -100,6 +106,7 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+    margin-bottom:  15px;
 }
 .project a {
   display: inline-block;
@@ -109,19 +116,40 @@ body {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  margin-bottom:  15px;
 }
 
+/*
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
   gap: 10px;
   margin-top: 20px;
 }
-
+*/
 .gallery img {
   width: 100%;
   border-radius: 10px;
 }
+
+.section .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+}
+
+.section .gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
+}
+
+#volunteering2 .gallery img {
+  max-height: 80px;
+  object-fit: cover;
+}
+
 
 /* Hover effect from a YouTube tutorial (https://www.youtube.com/watch?v=G3e-cpL7ofc&t=4502s) */
 .gallery img:hover{
@@ -141,12 +169,6 @@ body {
 .social a {
   font-size: 25px;
   color: palevioletred;
-  margin: 10px;
-}
-
-.socialVolunteering a{
-  font-size: 25px;
-  color: black;
   margin: 10px;
 }
 
