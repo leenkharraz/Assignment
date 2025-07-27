@@ -45,6 +45,7 @@ body {
   color: white;
   margin: 10px;
   text-decoration: none; 
+  border: palevioletred;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
@@ -60,6 +61,7 @@ body {
   padding: 20px;
   padding-left: 50px;
   padding-top: 100px;
+  
 }
 .home-content {
   max-width: 800px;
@@ -271,10 +273,12 @@ browser sizes (375px, 768px, and 1200px).*/
 
   .home-content h1,
   .home-content h2,
+  .home-content h4,
   .home-content p {
     font-size: 16px;
     padding-left: 0;
   }
+  
 
   .Myimg img {
     width: 120px;
